@@ -19,14 +19,15 @@
   display: inline-block;
 }
 .all_friends_icon {
+  display: inline-block;
   background-image: url(../../../public/icons/icons11.png);
   background-position: 0px -96px;
   background-size: auto;
+  background-color: red;
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
   -webkit-filter: invert(10%);
-  display: inline-block;
 }
 .birthdays_icon {
   background-image: url(../../../public/icons/icons11.png);
@@ -379,13 +380,13 @@
   display: inline-block;
 }
 .trash_icon {
+  display: inline-block;
   background-image: url("../../../public/icons/icons2.png");
   background-position: 0px -799px;
   background-size: auto;
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  display: inline-block;
 }
 .like_icon {
   background-image: url("../../../public/icons/icons5.png");

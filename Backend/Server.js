@@ -3,14 +3,14 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
-require("./Helpers/db")();
+require("./config/db")();
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
 //Routers
-const UserRouter = require("./Routers/Users");
+const UserRouter = require("./routes/user");
 app.use("/Users", UserRouter);
 
 //서버실행
